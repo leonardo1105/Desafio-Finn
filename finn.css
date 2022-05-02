@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+body{
+    background:#2CB3F3;
+    height:110vh;
+}
+.mensagem{
+    padding:30px;
+    text-align: center;
+}
+.mensagem h1{
+    margin-bottom: 8px;
+}
+.chapeu{
+    width:600px;
+    height:500px;
+    background:white;
+    position:absolute;
+    top:120px;
+    left:27.5vw;
+    border-radius:85px 85px 0 0;
+}
+.rosto{
+    background:#FFE1C9;
+    width:500px;
+    position:relative;
+    top:80px;
+    left:51px;
+    height:350px;
+    border-radius:300px;
+}
+.olho1{
+    background:black;
+    width:50px;
+    height:50px;
+    position:absolute;
+    left:90px;
+    top:60px;
+    border-radius: 50px;
+}
+.olho2{
+    background:black;
+    width:50px;
+    height:50px;
+    position:absolute;
+    right:90px;
+    top:60px;
+    border-radius: 50px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    top:180px;
+    left:135px;
+}
+input{
+    padding:10px 30px;
+    border:2px solid;
+    border-radius: 5px;
+}
+button{
+    position:absolute;
+    bottom:-50px;
+    left:597px;
+    padding:10px 35px;
+    background: #55A603;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 0px black;
+    transition:0.5s all;
+}
+button:hover{
+    cursor:pointer;
+    color:rgb(39, 37, 189)
+}
